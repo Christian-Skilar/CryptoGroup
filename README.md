@@ -2,4 +2,5 @@
 
 Visit website here: https://wallofgains.netlify.app/
 
-<img width="1326" alt="Skjermbilde 2022-11-09 kl  22 39 10" src="https://user-images.githubusercontent.com/57668355/200947474-6013264a-7546-4311-a62b-a609be875308.png">
+
+<img width="1206" alt="Skjermbilde 2022-11-09 kl  22 40 01" src="https://user-images.githubusercontent.com/57668355/200947636-f625cb34-a0d4-4445-ad61-20622e91cfcc.png">
