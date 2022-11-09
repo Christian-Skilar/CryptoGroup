@@ -1,0 +1,217 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+}
+
+.header-text-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.header-rocket {
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    z-index: 1;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to left, #008FCF, #A5E3FF);
+    transition: 300ms all;
+
+    &:hover {
+        background-color: rgba(66, 71, 91, 0.6);
+        border-width: 1px;
+        padding: 14px 44px;
+    }
+}
+
+
+// BACKGROUND GRADIENTS ------------------------
+
+.gradient-one {
+    margin-top: -150px;
+    background: #2AB0EC;
+    filter: blur(140px);
+  }
+
+  .position-one {
+    height: 50px;
+    position: relative;
+    width: 400px;
+    top: -500px;
+    left: -15%;
+  }
+
+
+  .gradient-two {
+    height: 100px;
+    margin-top: -150px;
+    background: #2AB0EC;
+    filter: blur(150px);
+  }
+
+  .position-two {
+    position: relative;
+    width: 200px;
+    top: -150px;
+    left: 65%;
+  }
+
+  .selling-points {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 200px  10px 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    span {
+        background: radial-gradient(
+            64.18% 64.18% at 71.16% 35.69%,
+            #A5E3FF 0.89%,
+            #73D4FF 17.23%,
+            #73D4FF 42.04%,
+            #2AB0EC 55.12%,
+            #2AB0EC 71.54%,
+            #008FCF 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          font-size: 20px;
+          margin-left: 10px;
+          font-weight: 300;
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+  }
+
+
+
+// MEDIA QUERRY ------------------------
+
+@media screen and (max-width: 1040px) {
+
+    .header-rocket {
+        max-width: 400px;
+        min-width: 300px;
+        padding: 10px;
+        z-index: 1;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+
+        h1 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .header-text-container {
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .header-rocket {
+        padding: 30px 10px;
+        width: 50%;
+    }
+
+    button {
+        padding: 10px 30px;
+        font-size: 15px;
+        border-width: 3px;
+
+        &:hover {
+            background-color: rgba(66, 71, 91, 0.6);
+            border-width: 1px;
+            padding: 12px 32px;
+        }
+    }
+
+    .position-one {
+        width: 200px;
+        top: -600px;
+        left: -15%;
+      }
+
+    .position-two {
+        width: 100px;
+        top: 70px;
+        left: 45%;
+      }
+
+    .selling-points {
+        flex-direction: column;
+        width: 500px; 
+
+        p {
+            margin-top: 50px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px)  {
+
+    .header {
+        width: 95%;
+    
+        h1 {
+            font-size: 40px;
+        }
+    
+    }
+
+    .selling-points {
+        width: 90%; 
+        margin-top: 40px;
+
+        span {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,173 @@
+
+.team-header {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    span {
+        margin-left: 10px;
+    }
+}
+
+.team {
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 490px;
+        padding: 25px;
+        margin-bottom: 50px;
+        background: rgba(12, 12, 12, 0.25);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        box-sizing: content-box;
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to right bottom, #008FCF, transparent, #008FCF);
+        border-image-slice: 1;
+
+        h3 {
+            font-size: 22px;
+            padding: 10px 0;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        img {
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 3px;
+        }
+
+        a .twitter-icon {
+            margin-top: 20px;
+            width: 30px;
+            transition: 200ms all ease-in-out;
+
+            &:hover {
+                transform: rotate(-360deg) scale(1.2);
+            }
+        }
+
+    }
+}
+
+.text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #A5E3FF 0.89%,
+      #73D4FF 17.23%,
+      #73D4FF 42.04%,
+      #2AB0EC 55.12%,
+      #2AB0EC 71.54%,
+      #008FCF 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  // BACKGROUND GRADIENTS ------------------------
+
+.gradient-three {
+    height: 100px;
+    margin-top: -550px;
+    background: #2AB0EC;
+    filter: blur(140px);
+  }
+
+  .position-three {
+    position: relative;
+    height: 100px;
+    width: 250px;
+    top: -600px;
+    left: -200px;
+  }
+
+
+  .gradient-four {
+    height: 100px;
+    margin-top: 250px;
+    background: #2AB0EC;
+    filter: blur(150px);
+  }
+
+  .position-four {
+    position: relative;
+    height: 200px;
+    width: 80px;
+    top: 50px;
+    left: 80%;
+  }
+
+
+
+  // MEDIA QUERRY  TABLET------------------------
+
+  @media screen and (max-width: 760px)  {
+
+    .team {
+    
+        .card-container {
+            width: 100%;
+            max-width: 200px;
+            height: 450px;
+            padding: 10px;
+    
+            img {
+                width: 100%;
+            }
+    
+        }
+    }
+}
+
+
+  // MEDIA QUERRY  TABLET small ------------------------
+
+  @media screen and (max-width: 560px)  {
+
+    .team {
+
+        padding: 0;
+        gap: 10px;
+    
+        .card-container {
+            max-width: 180px;
+            height: 450px;
+    
+        }
+    }
+
+    .gradient-three, .gradient-four {
+        display: none;
+    }
+}
+
+  // MEDIA QUERRY  MOBILE ------------------------
+
+  @media screen and (max-width: 420px)  {
+
+    .team {
+    
+        .card-container {
+            max-width: 75%;
+            height: 490px;
+    
+        }
+    }
+}

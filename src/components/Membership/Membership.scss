@@ -1,0 +1,154 @@
+
+.membership-header {
+    font-size: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+
+    span {
+        margin-left: 10px;
+    }
+}
+
+.membership {
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    p {
+        max-width: 500px;
+    }
+
+    .custom-width {
+        max-width: 450px;
+    }
+}
+
+.row-two {
+    margin-top: 15%;
+}
+
+.members-png {
+    width: 40%;
+    margin-top: -10%;
+    padding: 0 20px;
+}
+
+.payments-png {
+    width: 45%;
+    z-index: 1;
+}
+
+.gradient-five {
+    height: 200px;
+    background: #2AB0EC;
+    filter: blur(150px);
+  }
+
+  .position-five {
+    position: relative;
+    width: 200px;
+    top: -350px;
+    left: 20%;
+    position: 1;
+  }
+
+
+
+
+
+  // MEDIA QUERRY  TABLET------------------------
+
+  @media screen and (max-width: 920px)  {
+
+    .membership-header {
+        text-align: center;
+    }
+
+    .row {
+        justify-content: center;
+
+        p {
+            max-width: 600px;
+        }
+
+        .custom-width {
+            max-width: 600px;
+        }
+    }
+    
+    .row-two {
+        margin-top: 15%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .members-png {
+        width: 50%;
+        margin-top: 50px;
+    } 
+
+    .payments-png {
+        width: 65%;
+        margin-top: 70px;
+    }
+
+    .position-five {
+        width: 150px;
+        top: -360px;
+        left: 38%;
+      }
+}
+
+
+  // MEDIA QUERRY  TABLET------------------------
+
+  @media screen and (max-width: 500px)  {
+
+    .membership-header {
+        font-size: 35;
+    }
+
+    .row {
+    
+        p {
+            font-size: 14px;
+        }
+
+    }
+    
+    .members-png {
+        width: 80%;
+    } 
+
+    .payments-png {
+        width: 80%;
+    }
+
+    .position-five {
+        width: 100px;
+        top: -300px;
+        left: 37%;
+      }
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    .position-five {
+        top: -390px;
+        left: 28%;
+      }
+
+    .membership-header {
+        padding-top: 150px;
+    }
+}

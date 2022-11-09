@@ -1,0 +1,108 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto;
+
+    div {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        max-width: 1100px;
+        font-weight: 100;
+        z-index: 10;
+    }
+}
+
+.text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #A5E3FF 0.89%,
+      #73D4FF 17.23%,
+      #73D4FF 42.04%,
+      #2AB0EC 55.12%,
+      #2AB0EC 71.54%,
+      #008FCF 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+.img-conteiner {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+        width: 60%;
+        
+    }
+}
+
+.wave {
+    display: flex;
+    justify-content: center;
+    margin-top: -40%;
+    width: 100%;
+    max-width: 2000px;
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    .wave {
+        display: none;
+    }
+}
+
+
+
+// MEDIA QUERRY TABLET------------------------
+
+@media screen and (max-width: 900px) {
+
+    .about {
+        flex-wrap: wrap;
+        max-width: 500px;
+    
+        h2 {
+            font-size: 40px;
+            margin-top: 50px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .img-conteiner {
+        justify-content: center;
+    }
+}
+
+
+// MEDIA QUERRY MOBILE------------------------
+
+@media screen and (max-width: 500px)  {
+
+    .about {
+        width: 90%;
+    
+        h2 {
+            font-size: 35px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+
+}
