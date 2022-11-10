@@ -1,5 +1,7 @@
 # CryptoGroup
 
+Made in React.js, Styled with Sass and scroll animations with Framer Motion
+
 Visit website here: https://wallofgains.netlify.app/
 
 
