@@ -4,12 +4,12 @@ import { sim, cyberwolf, chase, nk, blick, larsen, twitter } from '../../assets'
 import './Team.scss'
 
 const founders = [
-  { title: 'CryptoChris', description: 'Chris dev in training, works mostly behing the scene, taking care of the tech side of discord and the website. Finding collabs and building the communty', link: 'https://twitter.com/CryptoChrisSol', imgUrl: larsen},
+  { title: 'CryptoChris', description: 'Chris dev in training, works mostly behing the scene, taking care of the tech side of discord and the website. Collabs and building the communty', link: 'https://twitter.com/CryptoChrisSol', imgUrl: larsen},
   { title: 'NK', description: 'Crypto and NFT enthusiast, does everything from delivering profitable calls on Sol, collabs and building the server with and Amazing spirit!', link: 'https://twitter.com/7CryptoNk', imgUrl: nk},
   { title: 'Sim', description: 'Sim, our beloved discord and collab manager. he makes great collabs and wl giveaways for our members, and are always in chat helping out.', link: 'https://twitter.com/CryptoSim66', imgUrl: sim},
   { title: 'Chasemoney4life', description: 'Chase is a beast, he does this full time. He is on everything from sol and eth nfts, to futures. this guy is always hungry for profit, learning and growth', link: 'https://twitter.com/chasemoney4Iife', imgUrl: chase},
   { title: 'CyberWolfgr', description: 'Got a lot of experience with crypto, now having a great interest in NFTs aswell. has his own channel with crazy amount of free books and usefull content', link: 'https://twitter.com/CyberWolfgr', imgUrl: cyberwolf},
-  { title: 'Stayin_Blick', description: 'Living and vibin in chat, helping everyone out when they have questions and showing them around. Also helps out with finding good projects and collabs ', link: 'https://twitter.com/crypto_blick', imgUrl: blick},
+  { title: 'Stayin_Blick', description: 'Another Dev in training. Blick helps everyone out when they have questions in chat. Also helps out with finding good projects and collabs ', link: 'https://twitter.com/crypto_blick', imgUrl: blick},
 ] 
 
 const Team = () => {

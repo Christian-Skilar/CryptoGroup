@@ -26,7 +26,7 @@ const Header = () => {
               is kind and helpful so dont be afraid to join the conversation 
               it's the best way to learn.
             </p>
-            <a href="https://twitter.com/home">
+            <a href="https://twitter.com/WallofGains">
             <button>Join Now</button>
             </a>
           </motion.div>

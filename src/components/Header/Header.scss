@@ -203,7 +203,7 @@ button {
 
     .selling-points {
         width: 90%; 
-        margin-top: 40px;
+        margin-top: -150px;
 
         span {
             font-size: 18px;
@@ -214,4 +214,9 @@ button {
             margin-top: 20px;
         }
     }
+    
+      .position-one, .position-two {
+        display: none;
+      }
+    
 }

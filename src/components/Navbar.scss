@@ -79,7 +79,7 @@
   
   
     svg {
-      width: 70%;
+      width: 80%;
       height: 70%;
       color: white;
     }
@@ -154,3 +154,29 @@
   .app__navigation-dot {
     color: transparent;
   }
+
+
+  @media screen and (max-width: 501px) {
+
+    .app__navbar {
+      height: 50px;
+    }
+
+    .logo {
+      width: 40px;
+      margin-left: 3%;
+  }
+
+  .app__navbar-menu {
+    width: 25px;
+    height: 25px;
+
+    div {
+  
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}

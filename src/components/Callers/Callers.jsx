@@ -30,7 +30,7 @@ const Member = () => {
             <img src={ethereum} alt="ethereum" />
             <p>3 ETH NFT callers, these guys are experienced and have 
               a good understanding about the market and knows well what to look 
-              for in a project. ofc we always want you to do your own research as well.
+              for in a project.
             </p>
           </motion.div>
           <motion.div 
@@ -41,7 +41,7 @@ const Member = () => {
             <p>There are 7 caller making calls for Solana NFTs. 
               Experienced people that have 
               a good understanding about the market and knows well what to look 
-              for in a project. ofc we always want you to do your own research as well.
+              for in a project.
             </p>
           </motion.div>
           <motion.div 
