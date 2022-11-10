@@ -1,7 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import { solana, candlestick, sports, ethereum, wave2, callerchart } from '../../assets';
+import { solana, trading, football, ether, wave2, callers } from '../../assets';
 import './Callers.scss'
+
 
 const Member = () => {
   return (
@@ -18,7 +19,7 @@ const Member = () => {
           transition={{ duration: 1 }}
           whileInView={{ y: [50, 0], opacity: [0, 1] }}
           className='callers-chart' 
-          src={callerchart} 
+          src={callers} 
           alt="callers chart png" 
         />
 
@@ -27,7 +28,7 @@ const Member = () => {
             transition={{ duration: 1 }}
             whileInView={{ y: [50, 0], opacity: [0, 1] }}
             className='chain-row'>
-            <img src={ethereum} alt="ethereum" />
+            <img src={ether} alt="ethereum" />
             <p>3 ETH NFT callers, these guys are experienced and have 
               a good understanding about the market and knows well what to look 
               for in a project.
@@ -48,7 +49,7 @@ const Member = () => {
             transition={{ duration: 1 }}
             whileInView={{ y: [50, 0], opacity: [0, 1] }}
             className='chain-row'>
-            <img src={sports} alt="sports" />
+            <img src={football} alt="sports" />
             <p>Sports bets is getting more and more populare, and we have 1 guy that 
               makes calls on different sport events like fotball, baseball, tennis and 
               more
@@ -58,7 +59,7 @@ const Member = () => {
             transition={{ duration: 1 }}
             whileInView={{ y: [50, 0], opacity: [0, 1] }}
             className='chain-row'>
-            <img src={candlestick} alt="candlestick" />
+            <img src={trading} alt="candlestick" />
             <p>Along with Sol nfts this is our most populare section and most profitable one.
               learning this skills can make you a lot of money. we have 5 people making
               calls on futures and teaching you different tequnices
